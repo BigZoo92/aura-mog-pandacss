@@ -1,0 +1,18 @@
+@layer reset, base, tokens, recipes, utilities;
+
+/*
+ * Registered custom properties: they interpolate inside @keyframes and are
+ * inherited by the whole rig. `--facing` flips front/back surfaces during a
+ * turn; `--look` lets the face peek over the shoulder.
+ */
+@property --facing {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --look {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}

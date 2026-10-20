@@ -1,0 +1,8 @@
+node_modules
+dist
+styled-system
+*.tsbuildinfo
+.DS_Store
+shots
+coverage
+.logs

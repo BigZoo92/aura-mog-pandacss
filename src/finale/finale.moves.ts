@@ -1,0 +1,85 @@
+import { defineMoves } from '../choreography/motion/move'
+
+export const finaleMoves = defineMoves({
+  insolentVictory: {
+    summary: 'Arms crossed over the knocked-out boss.',
+    tracks: ['insolentVictory'],
+    face: 'smug',
+    hands: { L: 'fist', R: 'fist' },
+  },
+  strollToSeat: {
+    summary: 'Strolls over to the boss.',
+    tracks: ['introStrutLegs', 'introStrutArms', 'strollToSeat'],
+    face: 'smug',
+    hands: { L: 'fist', R: 'fist' },
+  },
+  sitDown: {
+    summary: 'Sits on Tailwind like an armchair.',
+    tracks: ['sitDown', { track: 'hoodEarsPerk', delay: 1100 }],
+    face: 'proud',
+    hands: { L: 'open', R: 'open' },
+  },
+  pullJnr: {
+    summary: 'Pulls the JNR out of the onesie pocket.',
+    tracks: ['pullJnr'],
+    face: 'smug',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  lookAtJnr: {
+    summary: 'Admires the JNR.',
+    tracks: ['lookAtJnr'],
+    face: 'grin',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  bringToMouth: {
+    summary: 'Brings the JNR to his lips.',
+    tracks: ['bringToMouth'],
+    face: 'cool',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  inhale: {
+    summary: 'The slow inhale.',
+    tracks: ['inhale'],
+    face: 'shush',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  holdBreath: {
+    summary: 'Holds the smoke, staring at the camera.',
+    tracks: ['holdBreath'],
+    face: 'shush',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  exhale: {
+    summary: 'The giant exhale.',
+    tracks: ['exhale', { track: 'hoodEarsBounce', iterations: 6 }],
+    face: 'shock',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  smokeLounge: {
+    summary: 'Lounging on the boss while the smoke writes the verdict.',
+    tracks: ['smokeLounge'],
+    face: 'smug',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  kingLowerAndLook: {
+    summary: 'Lowers the JNR, looks into the camera.',
+    tracks: ['kingLowerAndLook'],
+    face: 'cool',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+  auraKingPose: {
+    summary: 'The Aura King pose.',
+    tracks: ['auraKingPose'],
+    face: 'smug',
+    hands: { L: 'open', R: 'hold' },
+    prop: 'jnr',
+  },
+})
