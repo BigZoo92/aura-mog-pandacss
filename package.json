@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "AURA BATTLE — Pandung Pandung CSSHUR. One panda. Infinite aura. Zero Tailwind.",
   "type": "module",
+  "packageManager": "pnpm@9.10.0",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "prepare": "panda codegen",
     "dev": "vite",
@@ -15,7 +19,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "verify:css": "node scripts/verify-css.mjs",
-    "measure": "node scripts/measure-build.mjs",
+    "measure": "node scripts/measure.mjs",
     "shoot": "node scripts/shoot.mjs"
   },
   "dependencies": {

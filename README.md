@@ -33,6 +33,8 @@ node scripts/shoot.mjs name="?seek=finalPuff:6200"   # screenshot any moment
 
 The browser scripts use your locally installed Google Chrome through `playwright-core`.
 
+Deployment (GitHub → Dokploy, static build): see **[DEPLOYMENT.md](./DEPLOYMENT.md)**.
+
 ## Deep links
 
 - `?seek=smokeReveal:5600`: open the show paused at a chapter + ms
